@@ -8,14 +8,29 @@
 </head>
 <body>
     <label>
+        <input type="number" value="1" id="scoop"> Cup
+    </label>
+    <label>
         <input type="radio" name="container" id="cup"> Cup
     </label>
     <label>
-        <input type="radio" name="container" id="scoop"> Scoop
+        <input type="radio" name="container" id="cone"> Scoop
     </label>
     <fieldset id="toppings">
         <legend>Toppings</legend>
     </fieldset>
+    <label>
+        <input type="checkbox" id="sprinkles"> Sprinkles ($0.50)
+    </label>
+    <label>
+        <input type="checkbox" id="whipped"> Whipped Cream ($0.25)
+    </label>
+    <label>
+        <input type="checkbox" id="fudge"> Hot Fudge ($1.25)
+    </label>
+    <label>
+        <input type="checkbox" id="cherry"> Cherry ($0.25)
+    </label>
 </body>
 <script>
     function onContainerClicked(e){
