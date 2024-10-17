@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(242, 4, 159);
+    color: lightpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* input [type=radio]{
+    display: block; */
+}
+label{
+    width: 40vw;
+    display: inline-block;
+}
