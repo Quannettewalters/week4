@@ -1,12 +1,19 @@
 body{
-    background-color: rgb(242, 4, 159);
+    background-color: rgb(131, 11, 142);
     color: lightpink;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-style:oblique;
 }
 /* input [type=radio]{
-    display: block; */
-}
+    display: block; 
+}*/
+
 label{
     width: 40vw;
     display: inline-block;
+}
+button{
+    color:rgb(0, 1, 1);
+    background-color: rgb(234, 181, 181);
 }
